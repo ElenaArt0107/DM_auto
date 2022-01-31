@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\BankDAL\bin\Debug\netstandard2.0\BankDAL.deps.json
+C:\Users\User\source\repos\BankDAL\bin\Debug\netstandard2.0\BankDAL.dll
+C:\Users\User\source\repos\BankDAL\bin\Debug\netstandard2.0\BankDAL.pdb
+C:\Users\User\source\repos\BankDAL\obj\Debug\netstandard2.0\BankDAL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\BankDAL\obj\Debug\netstandard2.0\BankDAL.AssemblyInfo.cs
+C:\Users\User\source\repos\BankDAL\obj\Debug\netstandard2.0\BankDAL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BankDAL\obj\Debug\netstandard2.0\BankDAL.dll
+C:\Users\User\source\repos\BankDAL\obj\Debug\netstandard2.0\BankDAL.pdb
+C:\Users\User\source\repos\BankDAL\bin\Debug\netstandard2.0\BankDomain.dll
+C:\Users\User\source\repos\BankDAL\bin\Debug\netstandard2.0\BankDomain.pdb
+C:\Users\User\source\repos\BankDAL\obj\Debug\netstandard2.0\BankDAL.csprojAssemblyReference.cache
+C:\Users\User\source\repos\BankDAL\obj\Debug\netstandard2.0\BankDAL.csproj.CopyComplete

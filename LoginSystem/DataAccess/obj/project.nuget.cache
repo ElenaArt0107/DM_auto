@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "ePoVPxeRGOOggPO++M8GweFXKu1V+/x+S8iGnv4k3aptN/BeCgtJoPTrR2OMgmw2Ms1uyIpJU750C8Cx0AW0qA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\LoginSystem\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Domain is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project Domain supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "Domain",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

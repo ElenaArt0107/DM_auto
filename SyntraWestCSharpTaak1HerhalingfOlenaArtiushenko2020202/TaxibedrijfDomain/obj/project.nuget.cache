@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "luEAXjosy9RizOszXMFcygiQlAhMPPoWVOwA8L5vyy4Mlti8R3SQe5wlztPOTE04puo6SbErV3NI83GCw7q6Vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\\TaxibedrijfDomain\\TaxibedrijfDomain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtiushenkoOlenaEindwerkKlassendiagram1", "ArtiushenkoOlenaEindwerkKlassendiagram1.csproj", "{DBAB1DD2-783D-48C5-AF11-C63650929D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBAB1DD2-783D-48C5-AF11-C63650929D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAB1DD2-783D-48C5-AF11-C63650929D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAB1DD2-783D-48C5-AF11-C63650929D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAB1DD2-783D-48C5-AF11-C63650929D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EC014B7-1CA0-4AB5-BF97-B6AFC421F6E1}
+	EndGlobalSection
+EndGlobal

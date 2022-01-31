@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\BankServices\bin\Debug\netstandard2.0\BankServices.deps.json
+C:\Users\User\source\repos\BankServices\bin\Debug\netstandard2.0\BankServices.dll
+C:\Users\User\source\repos\BankServices\bin\Debug\netstandard2.0\BankServices.pdb
+C:\Users\User\source\repos\BankServices\obj\Debug\netstandard2.0\BankServices.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\BankServices\obj\Debug\netstandard2.0\BankServices.AssemblyInfo.cs
+C:\Users\User\source\repos\BankServices\obj\Debug\netstandard2.0\BankServices.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BankServices\obj\Debug\netstandard2.0\BankServices.dll
+C:\Users\User\source\repos\BankServices\obj\Debug\netstandard2.0\BankServices.pdb
+C:\Users\User\source\repos\BankServices\obj\Debug\netstandard2.0\BankServices.csprojAssemblyReference.cache
+C:\Users\User\source\repos\BankServices\bin\Debug\netstandard2.0\BankDAL.dll
+C:\Users\User\source\repos\BankServices\bin\Debug\netstandard2.0\BankDomain.dll
+C:\Users\User\source\repos\BankServices\bin\Debug\netstandard2.0\BankDAL.pdb
+C:\Users\User\source\repos\BankServices\bin\Debug\netstandard2.0\BankDomain.pdb
+C:\Users\User\source\repos\BankServices\obj\Debug\netstandard2.0\BankServices.csproj.CopyComplete

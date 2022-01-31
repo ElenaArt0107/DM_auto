@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\bin\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.deps.json
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\bin\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.dll
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\bin\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.pdb
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\obj\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\obj\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\obj\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\obj\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.AssemblyInfo.cs
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\obj\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.dll
+C:\Users\User\source\repos\ArtiushenkoOlenaEindwerkKlassendiagram1\obj\Debug\netstandard2.0\ArtiushenkoOlenaEindwerkKlassendiagram1.pdb

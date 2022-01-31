@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VOCDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "VOCDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VOCDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VOCDAL.dll": {}
+        }
+      },
+      "VOCDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/VOCDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VOCDomain.dll": {}
+        }
+      },
+      "VOCService/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "VOCDAL": "1.0.0",
+          "VOCDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VOCService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VOCService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VOCDAL/1.0.0": {
+      "type": "project",
+      "path": "../VOCDAL/VOCDAL.csproj",
+      "msbuildProject": "../VOCDAL/VOCDAL.csproj"
+    },
+    "VOCDomain/1.0.0": {
+      "type": "project",
+      "path": "../VOCDomain/VOCDomain.csproj",
+      "msbuildProject": "../VOCDomain/VOCDomain.csproj"
+    },
+    "VOCService/1.0.0": {
+      "type": "project",
+      "path": "../VOCService/VOCService.csproj",
+      "msbuildProject": "../VOCService/VOCService.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "VOCDAL >= 1.0.0",
+      "VOCDomain >= 1.0.0",
+      "VOCService >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCConsole\\VOCConsole.csproj",
+      "projectName": "VOCConsole",
+      "projectPath": "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCConsole\\VOCConsole.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCDAL\\VOCDAL.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCDAL\\VOCDAL.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCDomain\\VOCDomain.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCDomain\\VOCDomain.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCService\\VOCService.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\MultiLayerArtchitectureArtiushenko\\VOCService\\VOCService.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

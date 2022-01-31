@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\obj\Debug\netstandard2.0\VOCDomain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\obj\Debug\netstandard2.0\VOCDomain.AssemblyInfo.cs
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\obj\Debug\netstandard2.0\VOCDomain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\bin\Debug\netstandard2.0\VOCDomain.deps.json
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\bin\Debug\netstandard2.0\VOCDomain.dll
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\bin\Debug\netstandard2.0\VOCDomain.pdb
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\obj\Debug\netstandard2.0\VOCDomain.dll
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\obj\Debug\netstandard2.0\VOCDomain.pdb
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDomain\obj\Debug\netstandard2.0\VOCDomain.csprojAssemblyReference.cache

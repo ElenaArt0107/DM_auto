@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VOCConsole/1.0.0": {
+        "dependencies": {
+          "VOCDAL": "1.0.0",
+          "VOCDomain": "1.0.0",
+          "VOCService": "1.0.0"
+        },
+        "runtime": {
+          "VOCConsole.dll": {}
+        }
+      },
+      "VOCDAL/1.0.0": {
+        "dependencies": {
+          "VOCDomain": "1.0.0"
+        },
+        "runtime": {
+          "VOCDAL.dll": {}
+        }
+      },
+      "VOCDomain/1.0.0": {
+        "runtime": {
+          "VOCDomain.dll": {}
+        }
+      },
+      "VOCService/1.0.0": {
+        "dependencies": {
+          "VOCDAL": "1.0.0",
+          "VOCDomain": "1.0.0"
+        },
+        "runtime": {
+          "VOCService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VOCConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VOCDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VOCDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VOCService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

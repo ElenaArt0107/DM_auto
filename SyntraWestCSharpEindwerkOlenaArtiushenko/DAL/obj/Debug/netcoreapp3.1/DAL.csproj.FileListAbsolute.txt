@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\bin\Debug\netcoreapp3.1\DMAutoservice.Domain.exe
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\bin\Debug\netcoreapp3.1\DMAutoservice.Domain.dll
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\bin\Debug\netcoreapp3.1\DMAutoservice.Domain.pdb
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

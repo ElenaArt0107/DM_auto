@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF2Check", "EF2Check.csproj", "{01FB05C8-95FF-4D57-B391-2553884866B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01FB05C8-95FF-4D57-B391-2553884866B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FB05C8-95FF-4D57-B391-2553884866B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FB05C8-95FF-4D57-B391-2553884866B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FB05C8-95FF-4D57-B391-2553884866B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD32526D-E0A5-4D8A-B90A-6F1994AA2366}
+	EndGlobalSection
+EndGlobal

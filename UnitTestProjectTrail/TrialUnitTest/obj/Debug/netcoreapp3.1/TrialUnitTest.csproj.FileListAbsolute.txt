@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\bin\Debug\netcoreapp3.1\TrialUnitTest.exe
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\bin\Debug\netcoreapp3.1\TrialUnitTest.deps.json
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\bin\Debug\netcoreapp3.1\TrialUnitTest.runtimeconfig.json
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\bin\Debug\netcoreapp3.1\TrialUnitTest.runtimeconfig.dev.json
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\bin\Debug\netcoreapp3.1\TrialUnitTest.dll
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\bin\Debug\netcoreapp3.1\TrialUnitTest.pdb
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\obj\Debug\netcoreapp3.1\TrialUnitTest.csprojAssemblyReference.cache
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\obj\Debug\netcoreapp3.1\TrialUnitTest.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\obj\Debug\netcoreapp3.1\TrialUnitTest.AssemblyInfo.cs
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\obj\Debug\netcoreapp3.1\TrialUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\obj\Debug\netcoreapp3.1\TrialUnitTest.dll
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\obj\Debug\netcoreapp3.1\TrialUnitTest.pdb
+C:\Users\User\source\repos\UnitTestProjectTrail\TrialUnitTest\obj\Debug\netcoreapp3.1\TrialUnitTest.genruntimeconfig.cache

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SyntraWestCSharpTaak4EntityFrameworkOlenaArtiushenko.Models.Huis">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEAAAAAQAAAAABAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Huis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Straat" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Personen" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SyntraWestCSharpTaak4EntityFrameworkOlenaArtiushenko.Models.Straat">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Straat.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Huisen" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SyntraWestCSharpTaak4EntityFrameworkOlenaArtiushenko.Models.Persoon">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAgAAgAAAAAAAAAAAAAAAAgAAAAAAgAAAAABAA=</HashCode>
+      <FileName>Models\Persoon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Huis" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="HobiesPerPersoon" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SyntraWestCSharpTaak4EntityFrameworkOlenaArtiushenko.Models.Hobby">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Hobby.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="HobiesPerPersoon" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SyntraWestCSharpTaak4EntityFrameworkOlenaArtiushenko.Models.HobbyPerPersoon">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAEAAQAA=</HashCode>
+      <FileName>Models\HobbyPerPersoon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Hobby" />
+      <Property Name="Persoon" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DMAutoservice.Domain.Models.Person">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAQAQABAAAIAAAAAAAAAAABQA=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CarsPerPerson" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.Brand">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAACAAAAAAAABAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\Brand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="UserPerCar" />
+      <Property Name="Models" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.UserCar">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAARAAA=</HashCode>
+      <FileName>Models\UserCar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+      <Property Name="Brand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.Model">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAAgRAAA=</HashCode>
+      <FileName>Models\Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Brand" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Generations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.Account">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAAAAAEEAAQAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="RightsPerAccount" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.Engine">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAEAACEAAAAABAAAAQIAAAQAgIAAAAgAAA=</HashCode>
+      <FileName>Models\Engine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GenerationType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.Generation">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAACAEAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Generation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ModelType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="EngineTypes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.AccountRights">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>Models\AccountRights.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Right" />
+      <Property Name="Account" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DMAutoservice.Domain.Models.Right">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Right.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="AccountsPerRight" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

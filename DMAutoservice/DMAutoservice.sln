@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAutoservice", "DMAutoservice.csproj", "{46D5F48C-1DAE-4E72-B243-4DB67EAF025C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5F6153D-1CCD-46F2-862E-6EDC37AB4D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAutoserviceModel", "..\DMAutoserviceModel\DMAutoserviceModel.csproj", "{596A4B08-6454-43EE-98D3-0DABBF0D7093}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D5F48C-1DAE-4E72-B243-4DB67EAF025C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D5F48C-1DAE-4E72-B243-4DB67EAF025C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D5F48C-1DAE-4E72-B243-4DB67EAF025C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D5F48C-1DAE-4E72-B243-4DB67EAF025C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596A4B08-6454-43EE-98D3-0DABBF0D7093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596A4B08-6454-43EE-98D3-0DABBF0D7093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596A4B08-6454-43EE-98D3-0DABBF0D7093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596A4B08-6454-43EE-98D3-0DABBF0D7093}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AADEC10-F6F8-4AA3-931A-709CD95249BC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\bin\Debug\netstandard2.0\TaxibedrijfService.deps.json
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\bin\Debug\netstandard2.0\TaxibedrijfService.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\bin\Debug\netstandard2.0\TaxibedrijfService.pdb
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\bin\Debug\netstandard2.0\TaxibedrijfDAL.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\bin\Debug\netstandard2.0\TaxibedrijfDomain.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\bin\Debug\netstandard2.0\TaxibedrijfDAL.pdb
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\bin\Debug\netstandard2.0\TaxibedrijfDomain.pdb
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\obj\Debug\netstandard2.0\TaxibedrijfService.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\obj\Debug\netstandard2.0\TaxibedrijfService.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\obj\Debug\netstandard2.0\TaxibedrijfService.AssemblyInfo.cs
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\obj\Debug\netstandard2.0\TaxibedrijfService.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\obj\Debug\netstandard2.0\TaxibedrijfService.csproj.CopyComplete
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\obj\Debug\netstandard2.0\TaxibedrijfService.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfService\obj\Debug\netstandard2.0\TaxibedrijfService.pdb

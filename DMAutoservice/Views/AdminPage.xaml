@@ -1,0 +1,84 @@
+﻿<Window x:Class="DMAutoservice.Views.AdminPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMAutoservice.Views"
+        mc:Ignorable="d"
+        Title="Admin Page" Height="1100" Width="1200" MinWidth="950">
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Text="Add new brand and engine specifications:" FontSize="40" FontWeight="Bold" Margin="10" Foreground="Gray" Padding="5"/>
+
+            <StackPanel >
+                <Grid Margin="20" Background="LightSlateGray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right">
+                        <TextBlock Text="Brand" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Model" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Generation" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Engine type" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                        <TextBox Text="{Binding NewBrand.BrandName}" FontSize="20" FontWeight="DemiBold" Margin="10" />
+                        <TextBox Text="{Binding NewModel.ModelName}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewGeneration.GenerationName}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewEngineType.TypeEngine}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+            <StackPanel >
+                <TextBlock Text="Engine spacifications:" FontSize="20" FontWeight="Bold" Margin="10" Foreground="Gray"/>
+                <Grid Margin="20" Background="LightSlateGray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" >
+                        <TextBlock Text="Power Standard" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Power After Tuning" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Torque Standard" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Torque After Tuning" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Fuel" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                        <TextBox Text="{Binding NewEngineType.PowerStandard}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewEngineType.PowerAfterTuning}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewEngineType.TorqueStandard}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewEngineType.TorqueAfterTuning}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewEngineType.Fuel}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Tuning specifications:" FontSize="20" FontWeight="Bold" Margin="10" Foreground="Gray"/>
+                <Grid Margin="20" Background="LightSlateGray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right">
+                        <TextBlock Text="Cylinder Capacity" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Compresion Ratio" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Type Ecu" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Bore X Stroke" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBlock Text="Engine Number" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                        <TextBox Text="{Binding NewTuningSpecification.CylinderCapacity}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewTuningSpecification.CompresionRatio}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewTuningSpecification.TypeEcu}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewTuningSpecification.BoreXStroke}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                        <TextBox Text="{Binding NewTuningSpecification.EngineNumber}" FontSize="20" FontWeight="DemiBold" Margin="10"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+            <StackPanel>
+                <Button Content="Add new specifications" Padding="10" Margin="250, 20" Click="AddSpecifications_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

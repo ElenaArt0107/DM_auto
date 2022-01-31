@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\BindingDataInXAML\bin\Debug\BindingDataInXAML.exe.config
+C:\Users\User\source\repos\BindingDataInXAML\bin\Debug\BindingDataInXAML.exe
+C:\Users\User\source\repos\BindingDataInXAML\bin\Debug\BindingDataInXAML.pdb
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\App.g.cs
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML_MarkupCompile.cache
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML_MarkupCompile.lref
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML.g.resources
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML.Properties.Resources.resources
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML.csproj.GenerateResource.cache
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML.exe
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML.pdb
+C:\Users\User\source\repos\BindingDataInXAML\obj\Debug\BindingDataInXAML.csprojAssemblyReference.cache

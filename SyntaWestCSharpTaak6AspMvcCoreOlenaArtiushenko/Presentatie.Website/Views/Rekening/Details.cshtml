@@ -1,0 +1,42 @@
+﻿@model Domain.models.Rekening
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Rekening</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OpNaamVan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OpNaamVan)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RekeningType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RekeningType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Balans)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Balans)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

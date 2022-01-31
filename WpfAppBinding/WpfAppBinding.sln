@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databinding", "Databinding.csproj", "{7DD46A59-9968-4D21-B819-5528DD3D74B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingDataInXAML", "..\BindingDataInXAML\BindingDataInXAML.csproj", "{C56FDDC2-1D01-49FD-BCE3-9573BCB48590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsBinding", "..\CollectionsBinding\CollectionsBinding.csproj", "{D9106B84-F247-4BCC-BFEB-4D774068520E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboboxBinding", "..\ComboboxBinding\ComboboxBinding.csproj", "{44ED6BF7-D5B1-4887-9ACA-3EBBECADEB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingCollectionsXAML", "..\BindingCollectionsXAML\BindingCollectionsXAML.csproj", "{EDEB2CFB-77E2-4F7D-94AA-D8B3DE0724CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataTemplate", "..\WpfDataTemplate\WpfDataTemplate.csproj", "{80367B36-591D-4B6D-9F21-F3D1788D9659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DD46A59-9968-4D21-B819-5528DD3D74B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD46A59-9968-4D21-B819-5528DD3D74B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD46A59-9968-4D21-B819-5528DD3D74B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD46A59-9968-4D21-B819-5528DD3D74B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56FDDC2-1D01-49FD-BCE3-9573BCB48590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56FDDC2-1D01-49FD-BCE3-9573BCB48590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56FDDC2-1D01-49FD-BCE3-9573BCB48590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56FDDC2-1D01-49FD-BCE3-9573BCB48590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9106B84-F247-4BCC-BFEB-4D774068520E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9106B84-F247-4BCC-BFEB-4D774068520E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9106B84-F247-4BCC-BFEB-4D774068520E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9106B84-F247-4BCC-BFEB-4D774068520E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ED6BF7-D5B1-4887-9ACA-3EBBECADEB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ED6BF7-D5B1-4887-9ACA-3EBBECADEB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ED6BF7-D5B1-4887-9ACA-3EBBECADEB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ED6BF7-D5B1-4887-9ACA-3EBBECADEB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEB2CFB-77E2-4F7D-94AA-D8B3DE0724CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEB2CFB-77E2-4F7D-94AA-D8B3DE0724CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEB2CFB-77E2-4F7D-94AA-D8B3DE0724CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEB2CFB-77E2-4F7D-94AA-D8B3DE0724CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80367B36-591D-4B6D-9F21-F3D1788D9659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80367B36-591D-4B6D-9F21-F3D1788D9659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80367B36-591D-4B6D-9F21-F3D1788D9659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80367B36-591D-4B6D-9F21-F3D1788D9659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79BCAAFD-21E1-4769-9407-BD6C35D4C73B}
+	EndGlobalSection
+EndGlobal

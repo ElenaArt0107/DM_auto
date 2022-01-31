@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\WpfAppBinding\bin\Debug\WpfAppBinding.exe.config
+C:\Users\User\source\repos\WpfAppBinding\bin\Debug\WpfAppBinding.exe
+C:\Users\User\source\repos\WpfAppBinding\bin\Debug\WpfAppBinding.pdb
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\App.g.cs
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\WpfAppBinding_MarkupCompile.cache
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\WpfAppBinding_MarkupCompile.lref
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\WpfAppBinding.g.resources
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\WpfAppBinding.Properties.Resources.resources
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\Databinding.csproj.GenerateResource.cache
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\Databinding.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\WpfAppBinding.exe
+C:\Users\User\source\repos\WpfAppBinding\obj\Debug\WpfAppBinding.pdb

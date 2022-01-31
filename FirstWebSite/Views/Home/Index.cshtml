@@ -1,0 +1,134 @@
+﻿@*Razor Syntax*@
+@{
+    string voornaam = "Avro";
+    string naam = "Ra";
+    var getal1 = 12;
+    var getal2 = 5;
+}
+
+@voornaam @naam
+
+<h1>@voornaam @naam</h1>
+<hr />
+<p><b>getal1: </b>@getal1</p>
+<p><b>getal2: </b>@getal2</p>
+<p><b>som </b>@getal1+@getal2</p>
+<p><b>som </b>@(getal1+getal2)</p>
+<p><b>verschill </b>@getal1-@getal2</p>
+<p><b>verschill </b>@(getal1-getal2)</p>
+<p><b>product </b>@getal1*@getal2</p>
+<p><b>product </b>@(getal1*getal2)</p>
+<p><b>quatient </b>@getal1/@getal2</p>
+<p><b>quatient </b>@(getal1/getal2)</p>
+<hr />
+<h1>   Conditions example</h1>
+@{ bool regnetHet = true;}
+
+@if (regnetHet)
+{
+    <h2>First method in C# code</h2>
+    <p>Het regnet;(</p>
+    <p>
+        Ik neem paraplue mee
+    </p>
+    <h2>Second method not in c# code</h2>
+    @:Het regent but not in C# <br />
+    @: Ik neem paraplue mee
+
+    <h2>Third method = one text line</h2>
+    <text>Het regent in one line
+        <br />
+        Ik neem paraplue mee</text>
+
+}
+else
+{
+    <p>het regnet niet</p>}
+<br />
+<p>ik ga wandelen</p>
+
+<hr />
+<h1>loop</h1>
+
+@for (int i = 0; i < 3; i++)
+{
+    <p>This is iteration @(i+1)</p>
+}
+<hr />
+<h1>list</h1>
+@{
+    var listing = new List<string>()
+{
+        "Cobo",
+        "Abe",
+        "Richy",
+        "Lucky",
+    };
+}
+
+@foreach (var naam1 in listing)
+{
+    <p>@naam1</p>
+}
+<hr />
+<h1>List of people</h1>
+@{
+    var people = new List<Persoon>()
+{ new Persoon
+    {
+        Lijftijd = 22,
+        Naam = "A",
+        Voornaam = "O"
+    },
+    new Persoon
+    {
+        Lijftijd = 12,
+        Naam = "Ai",
+        Voornaam = "Oi"
+    },
+        new Persoon
+    {
+        Lijftijd = 2,
+        Naam = "An",
+        Voornaam = "On"
+    },
+};
+}
+<h2>unordered list</h2>
+<ul>
+
+    @foreach (var person in people)
+    {
+        <li>
+            <p>@person.Volledigenaam (@person.Lijftijd)</p>
+        </li>
+    }
+</ul>
+<h2>ordered list</h2>
+<ol>
+
+    @foreach (var person in people)
+    {
+        <li>
+            <p>@person.Volledigenaam (@person.Lijftijd)</p>
+        </li>
+    }
+</ol>
+
+<h2>table view</h2>
+<table border="1">
+    <tr>
+        <th>voornaam</th>
+        <th>naam</th>
+        <th>lijftijd</th>
+    </tr>
+    @foreach (var persoon in people)
+    {
+        <tr>
+            <td>@persoon.Voornaam</td>
+            <td>@persoon.Naam</td>
+            <td>@persoon.Lijftijd</td>
+        </tr>
+    }
+</table>
+

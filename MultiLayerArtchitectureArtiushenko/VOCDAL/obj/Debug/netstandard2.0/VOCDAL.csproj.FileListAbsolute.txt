@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\bin\Debug\netstandard2.0\VOCDAL.deps.json
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\bin\Debug\netstandard2.0\VOCDAL.dll
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\bin\Debug\netstandard2.0\VOCDAL.pdb
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\obj\Debug\netstandard2.0\VOCDAL.csprojAssemblyReference.cache
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\obj\Debug\netstandard2.0\VOCDAL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\obj\Debug\netstandard2.0\VOCDAL.AssemblyInfo.cs
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\obj\Debug\netstandard2.0\VOCDAL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\obj\Debug\netstandard2.0\VOCDAL.dll
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\obj\Debug\netstandard2.0\VOCDAL.pdb
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\bin\Debug\netstandard2.0\VOCDomain.dll
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\bin\Debug\netstandard2.0\VOCDomain.pdb
+C:\Users\User\source\repos\MultiLayerArtchitectureArtiushenko\VOCDAL\obj\Debug\netstandard2.0\VOCDAL.csproj.CopyComplete

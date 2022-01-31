@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uIBz7OlsEB/El8W0TK6Pln1BozBge8uDd5KwBWs1aFcX8vXJOb383I2aPRIWh2I7mBCwF6f7J1JwPdLOnZqXfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\BankConsole\\BankConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

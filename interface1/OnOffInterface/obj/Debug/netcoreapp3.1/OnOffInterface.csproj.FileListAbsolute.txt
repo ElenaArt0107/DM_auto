@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\interface1\OnOffInterface\bin\Debug\netcoreapp3.1\OnOffInterface.exe
+C:\Users\User\source\repos\interface1\OnOffInterface\bin\Debug\netcoreapp3.1\OnOffInterface.deps.json
+C:\Users\User\source\repos\interface1\OnOffInterface\bin\Debug\netcoreapp3.1\OnOffInterface.runtimeconfig.json
+C:\Users\User\source\repos\interface1\OnOffInterface\bin\Debug\netcoreapp3.1\OnOffInterface.runtimeconfig.dev.json
+C:\Users\User\source\repos\interface1\OnOffInterface\bin\Debug\netcoreapp3.1\OnOffInterface.dll
+C:\Users\User\source\repos\interface1\OnOffInterface\bin\Debug\netcoreapp3.1\OnOffInterface.pdb
+C:\Users\User\source\repos\interface1\OnOffInterface\obj\Debug\netcoreapp3.1\OnOffInterface.csprojAssemblyReference.cache
+C:\Users\User\source\repos\interface1\OnOffInterface\obj\Debug\netcoreapp3.1\OnOffInterface.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\interface1\OnOffInterface\obj\Debug\netcoreapp3.1\OnOffInterface.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\interface1\OnOffInterface\obj\Debug\netcoreapp3.1\OnOffInterface.AssemblyInfo.cs
+C:\Users\User\source\repos\interface1\OnOffInterface\obj\Debug\netcoreapp3.1\OnOffInterface.dll
+C:\Users\User\source\repos\interface1\OnOffInterface\obj\Debug\netcoreapp3.1\OnOffInterface.pdb
+C:\Users\User\source\repos\interface1\OnOffInterface\obj\Debug\netcoreapp3.1\OnOffInterface.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SyntraWestCSharpWpfOlenaArtiushenko20192020/1.0.0": {
+        "runtime": {
+          "SyntraWestCSharpWpfOlenaArtiushenko20192020.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SyntraWestCSharpWpfOlenaArtiushenko20192020/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

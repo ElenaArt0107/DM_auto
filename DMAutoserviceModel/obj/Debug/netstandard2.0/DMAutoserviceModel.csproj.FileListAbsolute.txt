@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\DMAutoserviceModel\bin\Debug\netstandard2.0\DMAutoserviceModel.deps.json
+C:\Users\User\source\repos\DMAutoserviceModel\bin\Debug\netstandard2.0\DMAutoserviceModel.dll
+C:\Users\User\source\repos\DMAutoserviceModel\bin\Debug\netstandard2.0\DMAutoserviceModel.pdb
+C:\Users\User\source\repos\DMAutoserviceModel\obj\Debug\netstandard2.0\DMAutoserviceModel.csprojAssemblyReference.cache
+C:\Users\User\source\repos\DMAutoserviceModel\obj\Debug\netstandard2.0\DMAutoserviceModel.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DMAutoserviceModel\obj\Debug\netstandard2.0\DMAutoserviceModel.AssemblyInfo.cs
+C:\Users\User\source\repos\DMAutoserviceModel\obj\Debug\netstandard2.0\DMAutoserviceModel.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DMAutoserviceModel\obj\Debug\netstandard2.0\DMAutoserviceModel.csproj.Fody.CopyLocal.cache
+C:\Users\User\source\repos\DMAutoserviceModel\obj\Debug\netstandard2.0\DMAutoserviceModel.dll
+C:\Users\User\source\repos\DMAutoserviceModel\obj\Debug\netstandard2.0\DMAutoserviceModel.pdb

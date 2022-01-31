@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankConsole/1.0.0": {
+        "dependencies": {
+          "BankDAL": "1.0.0",
+          "BankDomain": "1.0.0",
+          "BankServices": "1.0.0"
+        },
+        "runtime": {
+          "BankConsole.dll": {}
+        }
+      },
+      "BankDAL/1.0.0": {
+        "dependencies": {
+          "BankDomain": "1.0.0"
+        },
+        "runtime": {
+          "BankDAL.dll": {}
+        }
+      },
+      "BankDomain/1.0.0": {
+        "runtime": {
+          "BankDomain.dll": {}
+        }
+      },
+      "BankServices/1.0.0": {
+        "dependencies": {
+          "BankDAL": "1.0.0",
+          "BankDomain": "1.0.0"
+        },
+        "runtime": {
+          "BankServices.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

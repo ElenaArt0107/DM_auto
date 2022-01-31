@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\bin\Debug\netstandard2.0\Bib.Domein.deps.json
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\bin\Debug\netstandard2.0\Bib.Domein.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\bin\Debug\netstandard2.0\Bib.Domein.pdb
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\obj\Debug\netstandard2.0\Bib.Domein.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\obj\Debug\netstandard2.0\Bib.Domein.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\obj\Debug\netstandard2.0\Bib.Domein.AssemblyInfo.cs
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\obj\Debug\netstandard2.0\Bib.Domein.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\obj\Debug\netstandard2.0\Bib.Domein.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak2ArchitectureOlenaArtiushenko20202021\Bib.Domein\obj\Debug\netstandard2.0\Bib.Domein.pdb

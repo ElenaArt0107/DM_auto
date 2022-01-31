@@ -1,0 +1,64 @@
+﻿<Window x:Class="SyntraWestCSharpWpfOlenaArtiushenko201920201.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SyntraWestCSharpWpfOlenaArtiushenko201920201"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="450" Width="1600">
+    <StackPanel>
+        <Grid ShowGridLines="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Margin="50, 20, 20, 20" Grid.Column="0" Grid.Row="1" FontSize="25">Scientist</TextBlock>
+            <ComboBox x:Name ="Scientist" 
+                      ItemsSource="{Binding Scientists}" DisplayMemberPath ="Naam"
+                      Margin="50,20,50,20" Grid.Column="1" Grid.Row="1" FontSize="30" Grid.ColumnSpan="2" 
+                      SelectionChanged="Scientist_SelectionChanged"></ComboBox>
+
+            <TextBlock Margin="50, 20, 20, 20" Grid.Column="0" Grid.Row="2" FontSize="25">Artist</TextBlock>
+            <ComboBox Name ="Artist" ItemsSource="{Binding Artists}" DisplayMemberPath ="Naam" Margin="50,20,50,20" Grid.Column="1" Grid.Row="2" FontSize="30" Grid.ColumnSpan="2" SelectionChanged="Artist_SelectionChanged"></ComboBox>
+
+            <TextBlock x:Name ="Vs" Margin="20" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="3" 
+                       FontSize="30" FontWeight="Bold" 
+                       HorizontalAlignment="Center">
+            </TextBlock>
+            <Button x:Name ="FightButt" Margin="50,20,50,20" Grid.Row="4" FontSize="25" Grid.ColumnSpan="3" Click="Button_Click">Fight</Button>
+
+            <TextBlock Margin="10" Grid.Column="3" Grid.Row="1" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center">Gevochten matchen</TextBlock>
+
+            <ListView x:Name="FightsList"  Margin="20" Grid.Column="3" FontSize="20" Grid.Row="2" Grid.RowSpan="3"
+                      ItemsSource="{Binding Fights}" HorizontalContentAlignment="Stretch">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0"
+                                      Content="{Binding PersoonGroep1.Naam}" IsChecked="{Binding PersoonGroep1Gewonnen}"></CheckBox>
+                            <CheckBox Grid.Column="1"
+                                Content="{Binding PersoonGroep2.Naam}" IsChecked="{Binding PersoonGroep2Gewonnen}"></CheckBox>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            
+            </ListView>
+
+        </Grid>
+    </StackPanel>
+</Window>

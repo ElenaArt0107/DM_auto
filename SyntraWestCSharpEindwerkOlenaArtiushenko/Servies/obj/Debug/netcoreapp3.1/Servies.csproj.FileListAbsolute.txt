@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\bin\Debug\netcoreapp3.1\Servies.deps.json
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\bin\Debug\netcoreapp3.1\Servies.dll
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\bin\Debug\netcoreapp3.1\Servies.pdb
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\obj\Debug\netcoreapp3.1\Servies.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\obj\Debug\netcoreapp3.1\Servies.AssemblyInfo.cs
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\obj\Debug\netcoreapp3.1\Servies.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\obj\Debug\netcoreapp3.1\Servies.dll
+C:\Users\User\source\repos\SyntraWestCSharpEindwerkOlenaArtiushenko\Servies\obj\Debug\netcoreapp3.1\Servies.pdb

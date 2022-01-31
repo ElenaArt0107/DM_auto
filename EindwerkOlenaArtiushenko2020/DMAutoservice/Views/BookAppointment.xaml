@@ -1,0 +1,57 @@
+﻿<Window x:Class="DMAutoservice.Views.BookAppointment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMAutoservice.Views"
+        mc:Ignorable="d"
+        Title="BookAppointment" Height="450" Width="800">
+    <Grid Margin="50,20,40,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <TextBlock HorizontalAlignment="Left" FontSize="15" Text="First Name" Margin="10, 5, 10, 5" VerticalAlignment="Center" Padding="5"/>
+            <TextBox  FontSize="15" VerticalAlignment="Center"  Margin="10, 5, 10, 5" Padding="5" Background="#eee" IsReadOnly="False"
+                      Text="{Binding Customer.Name}"/>
+            <TextBlock HorizontalAlignment="Left" FontSize="15" Text="Second Name" Margin="10, 5, 10, 5" VerticalAlignment="Center" Padding="5"/>
+            <TextBox  FontSize="15" VerticalAlignment="Center"  Margin="10, 5, 10, 5" Padding="5" Background="#eee" IsReadOnly="False"
+                      Text="{Binding Customer.Surame}"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" FontSize="15" Text="Phone Number" Margin="10, 5, 10, 5" VerticalAlignment="Center" Padding="5"/>
+                <TextBox  Grid.Column="1" Grid.Row="0" FontSize="15"  Margin="10, 5, 10, 5" Padding="5" Background="#eee" IsReadOnly="False" 
+                          Text="{Binding Customer.PhoneNumber}"/>
+                <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" FontSize="15" Text="Email address" Margin="10, 5, 10, 5" VerticalAlignment="Center" Padding="5" />
+                <TextBox  Grid.Column="1" Grid.Row="1" FontSize="15"  Margin="10, 5, 10, 5" Padding="5" Background="#eee" IsReadOnly="False" 
+                          Text="{Binding Customer.Email}"/>
+            </Grid>
+            <Button Padding="5" Margin="60, 30,60,20" Content="Make an appointment" Click="BtnAddAppointment_Click"/>
+            <Button Padding="5" Margin="60, 0,60,20" Content="Delete an appointment" Click="BtnDeleteAnAppointment_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <!--to put calendar in it to pick up the date-->
+            <!--or to put the info as a list of customers out for further storage, and now only the demo mode-->
+            <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" FontSize="15" Text="Time booked for:" Margin="10, 5, 10, 5" VerticalAlignment="Center" Padding="5" />
+            <ListView Margin="20" ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedPerson}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="10, 5, 10, 5" Orientation="Horizontal">
+                            <TextBlock HorizontalAlignment="Left" FontSize="15"  VerticalAlignment="Center" Padding="5" Text="{Binding Fullname}"/>
+                            <TextBlock HorizontalAlignment="Left" FontSize="15"   VerticalAlignment="Center" Padding="5" Text="{Binding PersonalData}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+    
+</Window>

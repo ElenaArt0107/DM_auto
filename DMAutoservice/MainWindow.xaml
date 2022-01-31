@@ -1,0 +1,209 @@
+﻿<Window x:Class="DMAutoserviceModel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMAutoserviceModel"
+        mc:Ignorable="d"
+        Title="Tuning DMAtoservice" Height="800" Width="1200" MinWidth="950" Icon="images/DMAutoService_adapt.png">
+
+    <Border Padding="20">
+        <ScrollViewer>
+            <StackPanel>
+
+                <StackPanel >
+                    <Image Width="404" HorizontalAlignment="Right" Source="images/DMAutoService_adapt.png" Margin="0,0,50,20" Height="71"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <Grid Margin="50,0,40,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--ComboBoxes-->
+                        <ComboBox x:Name="BrandNameBox" Grid.Column="0" Margin="0, 0, 10, 0" Padding="5" FontSize="15" ItemsSource="{Binding Brands}" SelectedItem="{Binding SelectedBrand}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding BrandName}"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>  
+                        </ComboBox>
+                        <ComboBox x:Name="ModelNameBox" Grid.Column="1" Margin="0, 0, 10, 0" Padding="5" FontSize="15" ItemsSource="{Binding Models}" SelectedItem="{Binding SelectedModel}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding ModelName}"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                        <ComboBox x:Name="GenerationTypeBox" Grid.Column="2" Margin="0, 0, 10, 0" Padding="5" FontSize="15" ItemsSource="{Binding Generations}" SelectedItem="{Binding SelectedGeneration}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding GenerationName}"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                        <ComboBox x:Name="EngineTypeBox" Grid.Column="3" Margin="0, 0, 10, 0" Padding="5" FontSize="15" ItemsSource="{Binding EngineTypes}" SelectedItem="{Binding SelectedEngineType}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding TypeEngine}" />
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                        <!--Buttons-->
+                        <Button x:Name="InfoButton" Grid.Column="4" Margin="0, 0, 10, 0" Padding="2" FontSize="20" Content="Info" Background="Yellow" Click="InfoButton_Click"></Button>
+                        <Button x:Name="BookTimeButton" Grid.Column="5" Margin="0, 0, 10, 0" Padding="2" FontSize="20" Content="Book time" Background="Red" Click="BookTimeButton_Click"></Button>
+                    </Grid>
+                    <!--Text to get from comboboxes-->
+                    <TextBlock x:Name ="ChosenCar" Text="{Binding Info}" Padding="2" FontSize="15" FontWeight="Bold" Margin="100, 10, 10, 20"/>
+                    <!--Options-->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0">
+                            <CheckBox Grid.Column="0" IsChecked="True" IsEnabled="False" FontSize="15" Content="Engine diagnostics + datalogs" VerticalAlignment="Center" Margin="100,0,20,0" Background="#eee" />
+                            <CheckBox Grid.Column="0" IsChecked="True" IsEnabled="False" FontSize="15" Content="Tuning Software" VerticalAlignment="Center" Margin="100,0,20,0" Background="#eee"/>
+                            <CheckBox Grid.Column="0" IsChecked="True" IsEnabled="False" FontSize="15" Content="Testride" VerticalAlignment="Center" Margin="100,0,20,0" Background="#eee"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <CheckBox  IsChecked="False" IsEnabled="False" FontSize="15" Content="Certificstion of tuning" VerticalAlignment="Center" Margin="0,0,20,0" Background="#eee"/>
+                            <CheckBox  IsChecked="False" IsEnabled="False" FontSize="15" Content="Test of engine power before and after" VerticalAlignment="Center" Margin="0,0,20,0" Background="#eee"/>
+                        </StackPanel>
+
+                    </Grid>
+
+                    <!--Calculations-->
+                    <StackPanel>
+                        <Border Padding="50,0,50, 0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <TextBox x:Name="PowerStandard" Grid.Column="1" Grid.Row="1" FontSize="15" VerticalAlignment="Center" Margin="0,10,10,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding TypeOfEngine.PowerStandard}"/>
+                                <TextBox x:Name="PowerAfter" Grid.Column="2" Grid.Row="1" FontSize="15" VerticalAlignment="Center" Margin="0,10,10,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding TypeOfEngine.PowerAfterTuning}"/>
+                                <TextBox x:Name="PowerDifference" Grid.Column="3" Grid.Row="1" FontSize="15" VerticalAlignment="Center" Margin="0,10,10,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding Path=TypeOfEngine.PowerDifference, Mode=OneWay}"/>
+                                <TextBox x:Name="TorqueStandard" Grid.Column="1" Grid.Row="2" FontSize="15" VerticalAlignment="Center" Margin="0,10,10,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding TypeOfEngine.TorqueStandard}"/>
+                                <TextBox x:Name="TorqueAfter" Grid.Column="2" Grid.Row="2" FontSize="15" VerticalAlignment="Center" Margin="0,10,10,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding TypeOfEngine.TorqueAfterTuning}"/>
+                                <TextBox x:Name="TorqueDifference" Grid.Column="3" Grid.Row="2"  FontSize="15" VerticalAlignment="Center" Margin="0,10,10,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding Path=TypeOfEngine.TorqueDifference,Mode=OneWay}"/>
+
+                                <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" FontSize="15" Text="POWER" Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right" FontSize="15" Text="TORQUE" Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" FontSize="15" Text="STANDART"/>
+                                <TextBlock Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" FontSize="15" Text="AFTER TUNING"/>
+                                <TextBlock Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" FontSize="15" Text="DIFFERENCE"/>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                    <!--CAR INFO-->
+                    <Border Padding="10">
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="5*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <TextBox x:Name="Fuel" Grid.Column="1" Grid.Row="0" FontSize="15" VerticalAlignment="Center" Margin="0,10,50,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding TypeOfEngine.Fuel}"/>
+                                <TextBox x:Name="Service" Grid.Column="1" Grid.Row="1" FontSize="15" VerticalAlignment="Center" Margin="0,10,50,0" 
+                                         Padding="5" Background="#eee" IsReadOnly="True" Text="TUNING"/>
+                                <!--Text="{Binding }"-->
+                                <!--<ListView x:Name="Options" Grid.Column="1" Grid.Row="2" FontSize="15" VerticalAlignment="Center" Margin="0,10,50,0" 
+                                          Padding="5" Background="#eee">--><!--
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Options[0]}"/> 
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>-->
+                                    <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right" FontSize="15" FontWeight="Bold" Text="Fuel" Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" FontSize="15" FontWeight="Bold" Text="Service" Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <!--<TextBlock Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right" FontSize="15" FontWeight="Bold" Text="Options"  Margin="0,10,20,0" VerticalAlignment="Center"/>-->
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                    <!--engine specifications-->
+
+                    <TextBlock FontSize="15" FontWeight="Bold" Margin="50,20,0,20" Text="Engine Specifications"/>
+                    <Border Padding="10">
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <TextBox x:Name="CylinderCapacity" Grid.Column="1" Grid.Row="0" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" 
+                                         Margin="0,10,50,0" Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding SpecificationOfTuning.CylinderCapacity}"/>
+                                <TextBox x:Name="CompressionRatio" Grid.Column="1" Grid.Row="1" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" 
+                                         Margin="0,10,50,0" Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding SpecificationOfTuning.CompresionRatio}"/>
+                                <TextBox x:Name="TypeEcu" Grid.Column="1" Grid.Row="2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" 
+                                         Margin="0,10,50,0" Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding SpecificationOfTuning.EcuType}"/>
+                                <TextBox x:Name="BoreXStroke" Grid.Column="3" Grid.Row="0" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" 
+                                         Margin="0,10,50,0" Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding SpecificationOfTuning.BoreXStroke}"/>
+                                <TextBox x:Name="EngineNumber" Grid.Column="3" Grid.Row="1" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" 
+                                         Margin="0,10,50,0" Padding="5" Background="#eee" IsReadOnly="True" Text="{Binding SpecificationOfTuning.EngineNumber}"/>
+
+                                <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right" FontSize="15" Text="Cylinder capacity" Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" FontSize="15" Text="Compression ratio" Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right" FontSize="15" Text="Type ecu"  Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" FontSize="15" Text="Bore X stroke"  Margin="0,10,20,0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="2" Grid.Row="1" HorizontalAlignment="Right" FontSize="15" Text="Engine number"  Margin="0,10,20,0" VerticalAlignment="Center"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                    <!--info about users to add later-->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0">
+                        <TextBlock x:Name="VisitorsQuantity" HorizontalAlignment="Center" FontSize="10"  Margin="0,10,20,0" VerticalAlignment="Center" Text="1 visitor(s)"/>
+                        <TextBlock x:Name="BookingsQuantity"  HorizontalAlignment="Center" FontSize="10"  Margin="0,10,20,0" VerticalAlignment="Center" Text="7 bookings for the last 24 hours"/>
+                    </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <Button Margin="180, 0, 60, 10" Content="Log in as an Admin" Padding="5" FontSize="20" Background="Black" Foreground="LightGray" Click="LogInAdmin_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Border>
+</Window>

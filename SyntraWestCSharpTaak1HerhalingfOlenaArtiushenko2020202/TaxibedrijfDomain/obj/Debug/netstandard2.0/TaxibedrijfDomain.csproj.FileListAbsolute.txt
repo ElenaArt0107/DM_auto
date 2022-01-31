@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\bin\Debug\netstandard2.0\TaxibedrijfDomain.deps.json
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\bin\Debug\netstandard2.0\TaxibedrijfDomain.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\bin\Debug\netstandard2.0\TaxibedrijfDomain.pdb
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\obj\Debug\netstandard2.0\TaxibedrijfDomain.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\obj\Debug\netstandard2.0\TaxibedrijfDomain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\obj\Debug\netstandard2.0\TaxibedrijfDomain.AssemblyInfo.cs
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\obj\Debug\netstandard2.0\TaxibedrijfDomain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\obj\Debug\netstandard2.0\TaxibedrijfDomain.dll
+C:\Users\User\source\repos\SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko2020202\TaxibedrijfDomain\obj\Debug\netstandard2.0\TaxibedrijfDomain.pdb

@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko20202021/1.0.0": {
+        "dependencies": {
+          "TaxibedrijfDAL": "1.0.0",
+          "TaxibedrijfDomain": "1.0.0",
+          "TaxibedrijfService": "1.0.0"
+        },
+        "runtime": {
+          "SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko20202021.dll": {}
+        }
+      },
+      "TaxibedrijfDAL/1.0.0": {
+        "dependencies": {
+          "TaxibedrijfDomain": "1.0.0"
+        },
+        "runtime": {
+          "TaxibedrijfDAL.dll": {}
+        }
+      },
+      "TaxibedrijfDomain/1.0.0": {
+        "runtime": {
+          "TaxibedrijfDomain.dll": {}
+        }
+      },
+      "TaxibedrijfService/1.0.0": {
+        "dependencies": {
+          "TaxibedrijfDAL": "1.0.0",
+          "TaxibedrijfDomain": "1.0.0"
+        },
+        "runtime": {
+          "TaxibedrijfService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SyntraWestCSharpTaak1HerhalingfOlenaArtiushenko20202021/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxibedrijfDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxibedrijfDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxibedrijfService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

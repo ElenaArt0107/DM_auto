@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KlassendiagramModel.Gevecht">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAYAAAAAAAAAIAAAAAACAAAAAAQAAAEAAAAwAA=</HashCode>
+      <FileName>Gevecht.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersoonGroep1" />
+      <Property Name="PersoonGroep2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KlassendiagramModel.Persoon">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Persoon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\WpfDataTemplate\bin\Debug\WpfDataTemplate.exe.config
+C:\Users\User\source\repos\WpfDataTemplate\bin\Debug\WpfDataTemplate.exe
+C:\Users\User\source\repos\WpfDataTemplate\bin\Debug\WpfDataTemplate.pdb
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\App.g.cs
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate_MarkupCompile.cache
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate_MarkupCompile.lref
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate.g.resources
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate.Properties.Resources.resources
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate.csproj.GenerateResource.cache
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate.exe
+C:\Users\User\source\repos\WpfDataTemplate\obj\Debug\WpfDataTemplate.pdb

@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\App.g.cs
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding_MarkupCompile.cache
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding_MarkupCompile.lref
+C:\Users\User\source\repos\ComboboxBinding\bin\Debug\ComboboxBinding.exe.config
+C:\Users\User\source\repos\ComboboxBinding\bin\Debug\ComboboxBinding.exe
+C:\Users\User\source\repos\ComboboxBinding\bin\Debug\ComboboxBinding.pdb
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding.g.resources
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding.Properties.Resources.resources
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding.exe
+C:\Users\User\source\repos\ComboboxBinding\obj\Debug\ComboboxBinding.pdb

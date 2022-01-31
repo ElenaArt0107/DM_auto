@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "BankDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankDAL.dll": {}
+        }
+      },
+      "BankDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BankDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankDomain.dll": {}
+        }
+      },
+      "BankServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "BankDAL": "1.0.0",
+          "BankDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankServices.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankDAL/1.0.0": {
+      "type": "project",
+      "path": "../BankDAL/BankDAL.csproj",
+      "msbuildProject": "../BankDAL/BankDAL.csproj"
+    },
+    "BankDomain/1.0.0": {
+      "type": "project",
+      "path": "../BankDomain/BankDomain.csproj",
+      "msbuildProject": "../BankDomain/BankDomain.csproj"
+    },
+    "BankServices/1.0.0": {
+      "type": "project",
+      "path": "../BankServices/BankServices.csproj",
+      "msbuildProject": "../BankServices/BankServices.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BankDAL >= 1.0.0",
+      "BankDomain >= 1.0.0",
+      "BankServices >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\BankConsole\\BankConsole.csproj",
+      "projectName": "BankConsole",
+      "projectPath": "C:\\Users\\User\\source\\repos\\BankConsole\\BankConsole.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\BankConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\User\\source\\repos\\BankDAL\\BankDAL.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\BankDAL\\BankDAL.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\BankDomain\\BankDomain.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\BankDomain\\BankDomain.csproj"
+            },
+            "C:\\Users\\User\\source\\repos\\BankServices\\BankServices.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\BankServices\\BankServices.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

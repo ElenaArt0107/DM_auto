@@ -1,0 +1,7 @@
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    Layout = "_Layout";
+
+    AccountSessionHelper.AccountSessionString = Context.Session.GetString(AccountSessionHelper.SessionKey);
+
+}

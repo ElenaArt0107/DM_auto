@@ -1,0 +1,51 @@
+﻿<Window x:Class="DMAutoservice.Views.LogInView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMAutoservice.Views"
+        mc:Ignorable="d"
+        Title="Log In"  Height="400" Width="300">
+    <StackPanel>
+        <TextBlock Text="Please provide your credentials:" FontSize="16" FontWeight="Bold" Margin="20, 40" Foreground="Gray"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right">
+                <TextBlock Text="User" FontSize="16" FontWeight="DemiBold" Margin="20"/>
+                <TextBlock Text="Pass" FontSize="16" FontWeight="DemiBold" Margin="20"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <TextBox Text="{Binding Log.LoginName}" FontSize="16"  Margin="20"/>
+                <TextBox Text="{Binding Log.Password}" FontSize="16"  Margin="20"/>
+            </StackPanel>
+        </Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Click="BtnBackToMainView_Click" Content="Back" Background="LightSlateGray" Margin="25, 0" Padding="5" FontSize="16" Foreground="White" Width="110"/>
+
+                <Button Click="LogInAdmin_Click" Content="Log in" Background="LightSlateGray" Margin="5, 0" Padding="5" FontSize="16" Foreground="White" Width="110"/>
+            </StackPanel>
+            <ListView Padding="5" ItemsSource="{Binding Logins}" SelectedItem="{Binding Log}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical">
+                            <WrapPanel>
+                                <TextBlock Text="User Name:          "/>
+                                <TextBox Text="{Binding LoginName}" IsReadOnly="True"/>
+                            </WrapPanel>
+                            <WrapPanel>
+                                <TextBlock Text="User Password:     "/>
+                                <TextBox Text="{Binding Password}" IsReadOnly="True"/>
+                            </WrapPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </StackPanel>
+    
+    
+</Window>

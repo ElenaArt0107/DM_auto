@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jZK6+BNUdHxgyVMxhnakqXw2uEEAkPsn6vuIa2+I+elQihXBoCq1e80fm56bsnkdwL9hbogeqe+qGE6DmCZCBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\ArtiushenkoOlenaEindwerkKlassendiagram1\\ArtiushenkoOlenaEindwerkKlassendiagram1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

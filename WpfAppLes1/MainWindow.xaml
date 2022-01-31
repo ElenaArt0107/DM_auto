@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfAppLes1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLes1"
+        mc:Ignorable="d"
+        Title="First WPF" Height="1000" Width="800">
+    <Grid>
+        <TextBlock
+            
+            TextAlignment="Left"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Hello world!"
+            TextWrapping="Wrap"
+            Margin="200, 10, 200, 900"
+            FontSize="40"
+            FontStyle="Italic"
+            FontFamily="Ink Free"
+            />
+
+        <TextBox Margin="200, 100, 200, 750" 
+                 Padding="10, 10, 0, 5"
+                 FontSize="40" 
+                 TextWrapping="Wrap"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Top"
+                 Width="250"
+                 FontFamily ="Ink Free"
+                 x:Name = "NameTextBox"
+        />
+        <Button
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="250, 250, 250, 650"
+                Width="200"
+                Height ="50"
+                Content ="Push it"
+                x:Name="PushIt"
+                FontFamily="Chiller"
+                FontSize="20"
+                MouseDoubleClick="ShowPopUpWithName"
+            />
+
+    </Grid>
+</Window>
