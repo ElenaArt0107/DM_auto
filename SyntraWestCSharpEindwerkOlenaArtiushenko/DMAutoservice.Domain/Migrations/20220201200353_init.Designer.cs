@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DMAutoservice.Domain.Migrations
 {
     [DbContext(typeof(DMAutoserviceContext))]
-    [Migration("20220201174957_update-relation")]
-    partial class updaterelation
+    [Migration("20220201200353_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

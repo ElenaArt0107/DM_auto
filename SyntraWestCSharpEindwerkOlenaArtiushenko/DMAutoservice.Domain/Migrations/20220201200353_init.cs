@@ -2,7 +2,7 @@
 
 namespace DMAutoservice.Domain.Migrations
 {
-    public partial class updaterelation : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
