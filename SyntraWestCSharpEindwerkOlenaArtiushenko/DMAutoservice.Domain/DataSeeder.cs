@@ -19,7 +19,7 @@ namespace DMAutoservice.Domain
             // Database will be removed from servr
             // ...and will be again initialized
             // context.Database.EnsureDeleted();
-           // context.Database.EnsureCreated();
+           context.Database.EnsureCreated();
 
             if (context.Brands.Any())
             {

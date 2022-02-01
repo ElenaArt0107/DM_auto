@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using DMAutoservice.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
-using Services;
-using DMAutoservice.Domain.Models;
 using Presentation.DMAutoservice.Models.UserCarModels;
+using Services;
 
 namespace Presentation.DMAutoservice.Controllers
 {
@@ -39,7 +34,7 @@ namespace Presentation.DMAutoservice.Controllers
         public ActionResult Create()
         {
             var newPerson = new Person();
-            
+
             CreateUserCarViewModel model = new CreateUserCarViewModel
             {
                 BrandsForDropDown = _brandService.GetBrandsSortedOnBrandNameDesc(),
@@ -63,15 +58,15 @@ namespace Presentation.DMAutoservice.Controllers
                 model.Person = newPerson;
                 return View(model);
             }
-            
+
 
             UserCar newUserCar = new UserCar
             {
-                BrandId = model.BrandId, 
+                BrandId = model.BrandId,
                 PersonId = model.Person.Id
             };
             _userCarService.CreateUserCar(newUserCar);
-            
+
 
 
             try
@@ -130,7 +125,7 @@ namespace Presentation.DMAutoservice.Controllers
             _userCarService.UpdateUserCar(model.UserCar);
 
             return RedirectToAction("Index");
-            }
+        }
 
         // GET: UserPerCarController/Delete/5
         public ActionResult Delete(int id)

@@ -33,7 +33,7 @@ namespace DAL
         public Brand GetBrand(int id)
         {
             return _context.Brands
-                 .Include(x => x.UserPerCar)
+                 .Include(x => x.Persons)
                  .Where(x => x.Id == id)
                  .FirstOrDefault();
         }

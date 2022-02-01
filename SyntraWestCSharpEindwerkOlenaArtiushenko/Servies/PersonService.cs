@@ -24,6 +24,11 @@ namespace Services
             _personRepo.DeletePerson(id);
         }
 
+        public List<Person> GetAllPeople()
+        {
+            return _personRepo.GetPeople();
+        }
+
         public List<Person> GetPeopleSortedOnSurname()
         {
             return _personRepo.GetPeople().OrderBy(x=> x.Surname).ToList();
@@ -35,7 +40,7 @@ namespace Services
             var allPeople = GetPeopleSortedOnSurname();
             foreach (var p in allPeople)
             {
-                if (ProperName == p.ProperName)
+                if (ProperName == p.FullName)
                 {
                     id = p.Id;
                 }

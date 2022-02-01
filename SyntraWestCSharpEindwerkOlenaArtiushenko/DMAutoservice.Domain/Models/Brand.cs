@@ -11,7 +11,7 @@ namespace DMAutoservice.Domain.Models
         public string BrandName { get; set; }
 
         //nav properties
-        public List<UserCar> UserPerCar { get; set; } = new List<UserCar>();
+        public List<Person> Persons { get; set; } = new List<Person>();
         public List<Model> Models { get; set; } =  new List<Model>();
 
         public override string ToString()

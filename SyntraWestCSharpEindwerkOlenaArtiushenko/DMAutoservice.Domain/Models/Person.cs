@@ -11,12 +11,12 @@ namespace DMAutoservice.Domain.Models
         public string Email { get; set; }
         public int PhoneNumber { get; set; }
 
-        public string ProperName => $"{Name} {Surname}";
+        public string FullName => $"{Name} {Surname}";
 
         //nev prop
 
-        public List<UserCar> CarsPerPerson { get; set; } = new List<UserCar>();
-        public List<RolePerPerson> RolesPerPerson { get; set; } = new List<RolePerPerson>();
+        public virtual List<Brand> Brands { get; set; } = new List<Brand>();
+        public virtual List<RolePerPerson> Roles { get; set; } = new List<RolePerPerson>();
 
 
     }
